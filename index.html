@@ -6,9 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>Practice</title>
-
 </head>
 <body>
+<div class="theme-switch">
+    <svg width="30" height="30" class="theme-switch__icon">
+        <use href="./img/sprite.svg#icon-sun-day-weather-symbol_icon-iconscom_73146"></use>
+    </svg>
+
+<div class="switch-control">
+
+    <input type="checkbox" class="theme-switch-toggle"  name="theme" id="dark-mode-toggle" aria-label="Перемикач між світлою і темною темами" id="theme-switch-toggle">
+    <label aria hidden = "true" for="theme-switch-toggle" class="theme-switch__track"></label>
+    <div  aria hidden = "true" class="theme-switch__marker"></div>
+</div>
+        <svg width="30" height="30" class="theme-switch__icon">
+            <use href="./img/sprite.svg#icon-moon-phase-black-crescent-shape_icon-iconscom_72982"></use>
+        </svg>
+
+</div>
+
     <script src="./script.js" type="module"></script>
 </body>
 </html>
